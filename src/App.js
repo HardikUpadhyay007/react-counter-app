@@ -13,8 +13,8 @@ function App() {
         <main>
             <h1>Counter App</h1>
             <div className="counter-body">
-                <h2>{count}</h2>
                 <Increment onIncrement={incrementCount} />
+                <h2>{count}</h2>
                 <Decrement onDecrement={decrementCount} />
             </div>
         </main>
